@@ -1,0 +1,147 @@
+.Title {
+    margin-left: 750px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(5, 217, 255);
+    height: 70px;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 35px;
+}
+
+li a:hover {
+    background-color: rgb(18, 212, 238);
+}
+
+.inner-banner img {
+    width: 1800px;
+}
+
+.inner-block {
+    overflow: hidden;
+    background: rgb(240, 250, 250);
+    padding: 1rem;
+    margin: 0 0 1rem 0;
+    margin-top: 20px;
+    margin-left: 20px;
+    width: 1720px;
+    border-radius: 20px;
+    border-color: black;
+}
+
+.block img {
+    width: 300px;
+    height: 250px;
+    float: left;
+    margin: 0 1rem 0 0;
+}
+
+.block h2 {
+    font-weight: 500;
+    margin: 0 0 0.5rem 0;
+    font-size: 40px;
+}
+
+.inner-block p {
+    font-size: 25px;
+}
+
+.cards {
+    display: flex;
+    flex-direction: row;
+}
+
+.card1 {
+    background: rgb(173, 220, 231);
+    text-align: justify;
+    width: 300px;
+    float: left;
+    margin-left: 300px;
+    padding: 20px;
+    border-color: black;
+    border-radius: 20px;
+}
+
+.card1 img {
+    width: 300px;
+}
+
+.card2 {
+    background: rgb(173, 220, 231);
+    text-align: justify;
+    float: left;
+    padding: 20px;
+    margin-left: 100px;
+    border-radius: 20px;
+}
+
+.card2 img {
+    width: 300px;
+}
+
+.card3 {
+    background: rgb(173, 220, 231);
+    text-align: justify;
+    float: left;
+    padding: 20px;
+    margin-left: 100px;
+    border-radius: 20px;
+}
+
+.card3 img {
+    width: 300px;
+}
+
+.card1 button {
+    border: none;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    margin-left: 50px;
+}
+
+.card2 button {
+    border: none;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    margin-left: 50px;
+}
+
+.card3 button {
+    border: none;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    margin-left: 50px;
+}
