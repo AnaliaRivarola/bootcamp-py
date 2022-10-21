@@ -7,8 +7,9 @@ ul {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: rgb(5, 217, 255);
+    background-color: #c97074;
     height: 70px;
+    width: 1335px;
 }
 
 li {
@@ -29,24 +30,26 @@ li a:hover {
 }
 
 .inner-banner img {
-    width: 1800px;
+    width: 1335px;
 }
 
 .inner-block {
     overflow: hidden;
-    background: rgb(240, 250, 250);
+    background: #f5aeb2;
     padding: 1rem;
     margin: 0 0 1rem 0;
     margin-top: 20px;
     margin-left: 20px;
-    width: 1720px;
+    width: 1250px;
+    height: 150px;
     border-radius: 20px;
     border-color: black;
+    padding-bottom: 20px;
 }
 
 .block img {
-    width: 300px;
-    height: 250px;
+    width: 200px;
+    height: 150px;
     float: left;
     margin: 0 1rem 0 0;
 }
@@ -58,7 +61,10 @@ li a:hover {
 }
 
 .inner-block p {
-    font-size: 25px;
+    font-size: 20px;
+    /*text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;*/
 }
 
 .cards {
@@ -67,14 +73,15 @@ li a:hover {
 }
 
 .card1 {
-    background: rgb(173, 220, 231);
+    background: #e6c9c5;
     text-align: justify;
     width: 300px;
     float: left;
-    margin-left: 300px;
+    margin-left: 60px;
     padding: 20px;
     border-color: black;
     border-radius: 20px;
+    margin-top: 20px;
 }
 
 .card1 img {
@@ -82,12 +89,13 @@ li a:hover {
 }
 
 .card2 {
-    background: rgb(173, 220, 231);
+    background: #e6c9c5;
     text-align: justify;
     float: left;
     padding: 20px;
     margin-left: 100px;
     border-radius: 20px;
+    margin-top: 20px;
 }
 
 .card2 img {
@@ -95,12 +103,13 @@ li a:hover {
 }
 
 .card3 {
-    background: rgb(173, 220, 231);
+    background: #e6c9c5;
     text-align: justify;
     float: left;
     padding: 20px;
     margin-left: 100px;
     border-radius: 20px;
+    margin-top: 20px;
 }
 
 .card3 img {
